@@ -4,7 +4,7 @@
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
    crs:PresetType="Normal"
    crs:Cluster=""
-   crs:UUID="D154658F717C3646AB69BB3F50C06805"
+   crs:UUID="CC34548642B0EA4DA0EADB71AA4BAE65"
    crs:SupportsAmount="False"
    crs:SupportsColor="True"
    crs:SupportsMonochrome="True"
@@ -76,7 +76,6 @@
    crs:GrainAmount="0"
    crs:ColorNoiseReductionDetail="50"
    crs:ColorNoiseReductionSmoothness="50"
-   crs:LensProfileEnable="1"
    crs:LensManualDistortionAmount="0"
    crs:AutoLateralCA="1"
    crs:Exposure2012="+1.70"
@@ -97,11 +96,10 @@
    crs:OverrideLookVignette="False"
    crs:ToneCurveName="Custom"
    crs:ToneCurveName2012="Linear"
-   crs:LensProfileSetup="LensDefaults"
    crs:HasSettings="True">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">YokohamaNightWalk_HANABI</rdf:li>
+     <rdf:li xml:lang="x-default">YPW_Hanabi</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:ShortName>
