@@ -4,7 +4,7 @@
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
    crs:PresetType="Normal"
    crs:Cluster=""
-   crs:UUID="1155DE4E30D4FA4AB95445BBE3A626AF"
+   crs:UUID="ABB370E4D6AB034FBEE64E7E818DA581"
    crs:SupportsAmount="False"
    crs:SupportsColor="True"
    crs:SupportsMonochrome="True"
@@ -76,7 +76,6 @@
    crs:GrainFrequency="50"
    crs:ColorNoiseReductionDetail="50"
    crs:ColorNoiseReductionSmoothness="50"
-   crs:LensProfileEnable="1"
    crs:LensManualDistortionAmount="0"
    crs:AutoLateralCA="1"
    crs:Exposure2012="0.00"
@@ -97,13 +96,6 @@
    crs:OverrideLookVignette="False"
    crs:ToneCurveName="Custom"
    crs:ToneCurveName2012="Linear"
-   crs:LensProfileSetup="Custom"
-   crs:LensProfileName="Adobe (Sony FE 35mm F2.8 ZA)"
-   crs:LensProfileFilename="SONY (Sony FE 35mm F2.8 ZA) - RAW.lcp"
-   crs:LensProfileDigest="0EBF01717DDBB18E69E7C66875937017"
-   crs:LensProfileDistortionScale="100"
-   crs:LensProfileChromaticAberrationScale="100"
-   crs:LensProfileVignettingScale="0"
    crs:HasSettings="True">
    <crs:Name>
     <rdf:Alt>
