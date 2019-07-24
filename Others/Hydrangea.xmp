@@ -101,7 +101,7 @@
    crs:HasSettings="True">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Tokyo_Hydrangea</rdf:li>
+     <rdf:li xml:lang="x-default">Hydrangea</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:ShortName>

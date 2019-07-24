@@ -101,7 +101,7 @@
    crs:HasSettings="True">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">YokohamaNightWalk_HANABI</rdf:li>
+     <rdf:li xml:lang="x-default">YPW_Hanabi</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:ShortName>

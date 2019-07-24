@@ -101,7 +101,7 @@
    crs:HasSettings="True">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">TokyoNightWalk_Bird'sEye</rdf:li>
+     <rdf:li xml:lang="x-default">Bird'sEyeAtNight</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:ShortName>
