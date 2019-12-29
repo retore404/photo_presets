@@ -31,3 +31,7 @@
 ### Hydrangea
 
 - For Hydrangea, blooming in the shade.
+
+### AlleyInLateAutumn
+
+- Emphasize red in a dark alley
