@@ -17,6 +17,135 @@
 				<key>BlendModeIdentifier</key>
 				<string>Normal</string>
 				<key>Effects</key>
+				<array />
+				<key>Identifier</key>
+				<string>DevelopAdjustmentLayer</string>
+				<key>Enabled</key>
+				<true />
+				<key>Sublayers</key>
+				<dict>
+					<key>AdjustmentLayers</key>
+					<array>
+						<dict>
+							<key>BlendModeIdentifier</key>
+							<string>Normal</string>
+							<key>Effects</key>
+							<array>
+								<dict>
+									<key>Identifier</key>
+									<string>MIPLLensCorrectionEffect</string>
+									<key>Parameters</key>
+									<dict />
+								</dict>
+							</array>
+							<key>Identifier</key>
+							<string>LensCorrectionAdjustmentSubLayer</string>
+							<key>Enabled</key>
+							<true />
+						</dict>
+						<dict>
+							<key>BlendModeIdentifier</key>
+							<string>Normal</string>
+							<key>Effects</key>
+							<array>
+								<dict>
+									<key>Identifier</key>
+									<string>MIPLDevelopCommonEffectID</string>
+									<key>Parameters</key>
+									<dict>
+										<key>Temperature</key>
+										<dict>
+											<key>OptionalDataType</key>
+											<integer>0</integer>
+											<key>Value</key>
+											<real>-75.2818421152603</real>
+										</dict>
+										<key>Highlights</key>
+										<dict>
+											<key>OptionalDataType</key>
+											<integer>0</integer>
+											<key>Value</key>
+											<real>-91</real>
+										</dict>
+										<key>Shadows</key>
+										<dict>
+											<key>OptionalDataType</key>
+											<integer>0</integer>
+											<key>Value</key>
+											<real>23</real>
+										</dict>
+									</dict>
+								</dict>
+							</array>
+							<key>Identifier</key>
+							<string>DevelopAdjustmentSubLayer</string>
+							<key>Enabled</key>
+							<true />
+						</dict>
+						<dict>
+							<key>BlendModeIdentifier</key>
+							<string>Normal</string>
+							<key>Effects</key>
+							<array>
+								<dict>
+									<key>Identifier</key>
+									<string>MIPLBlackWhiteEffect</string>
+									<key>Parameters</key>
+									<dict>
+										<key>Whites</key>
+										<dict>
+											<key>OptionalDataType</key>
+											<integer>0</integer>
+											<key>Value</key>
+											<real>-31</real>
+										</dict>
+										<key>Blacks</key>
+										<dict>
+											<key>OptionalDataType</key>
+											<integer>0</integer>
+											<key>Value</key>
+											<real>72</real>
+										</dict>
+									</dict>
+								</dict>
+							</array>
+							<key>Identifier</key>
+							<string>BlacksWhitesEffectSubLayer</string>
+							<key>Enabled</key>
+							<true />
+						</dict>
+						<dict>
+							<key>BlendModeIdentifier</key>
+							<string>Normal</string>
+							<key>Effects</key>
+							<array>
+								<dict>
+									<key>Identifier</key>
+									<string>MIPLClarityEffect</string>
+									<key>Parameters</key>
+									<dict>
+										<key>Clarity</key>
+										<dict>
+											<key>OptionalDataType</key>
+											<integer>0</integer>
+											<key>Value</key>
+											<real>7.76699018478394</real>
+										</dict>
+									</dict>
+								</dict>
+							</array>
+							<key>Identifier</key>
+							<string>ClarityLayerSubLayer</string>
+							<key>Enabled</key>
+							<true />
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<dict>
+				<key>BlendModeIdentifier</key>
+				<string>Normal</string>
+				<key>Effects</key>
 				<array>
 					<dict>
 						<key>Identifier</key>
@@ -56,171 +185,33 @@
 						<key>Identifier</key>
 						<string>MIPLSaturationEffect</string>
 						<key>Parameters</key>
-						<dict />
+						<dict>
+							<key>Saturation</key>
+							<dict>
+								<key>OptionalDataType</key>
+								<integer>0</integer>
+								<key>Value</key>
+								<real>13</real>
+							</dict>
+						</dict>
 					</dict>
 					<dict>
 						<key>Identifier</key>
 						<string>MIPLVibranceEffect</string>
 						<key>Parameters</key>
-						<dict />
+						<dict>
+							<key>Vibrance</key>
+							<dict>
+								<key>OptionalDataType</key>
+								<integer>0</integer>
+								<key>Value</key>
+								<real>11</real>
+							</dict>
+						</dict>
 					</dict>
 				</array>
 				<key>Identifier</key>
 				<string>VibranceAdjustmentLayer</string>
-				<key>Enabled</key>
-				<true />
-			</dict>
-			<dict>
-				<key>BlendModeIdentifier</key>
-				<string>Normal</string>
-				<key>Effects</key>
-				<array>
-					<dict>
-						<key>Identifier</key>
-						<string>MIPLClarityEffect</string>
-						<key>Parameters</key>
-						<dict>
-							<key>Clarity</key>
-							<dict>
-								<key>OptionalDataType</key>
-								<integer>0</integer>
-								<key>Value</key>
-								<real>7.76699018478394</real>
-							</dict>
-						</dict>
-					</dict>
-				</array>
-				<key>Identifier</key>
-				<string>ClarityLayer</string>
-				<key>Enabled</key>
-				<true />
-			</dict>
-			<dict>
-				<key>BlendModeIdentifier</key>
-				<string>Normal</string>
-				<key>Effects</key>
-				<array>
-					<dict>
-						<key>Identifier</key>
-						<string>MIPLWhiteBalanceEffect</string>
-						<key>Parameters</key>
-						<dict>
-							<key>Temperature</key>
-							<dict>
-								<key>OptionalDataType</key>
-								<integer>0</integer>
-								<key>Value</key>
-								<real>-75.2777553078985</real>
-							</dict>
-						</dict>
-					</dict>
-				</array>
-				<key>Identifier</key>
-				<string>WhiteBalanceAdjustmentLayer</string>
-				<key>Enabled</key>
-				<true />
-			</dict>
-			<dict>
-				<key>BlendModeIdentifier</key>
-				<string>Normal</string>
-				<key>Effects</key>
-				<array>
-					<dict>
-						<key>Identifier</key>
-						<string>MIPLExposureEffect</string>
-						<key>Parameters</key>
-						<dict />
-					</dict>
-				</array>
-				<key>Identifier</key>
-				<string>ExposureAdjustmentLayer</string>
-				<key>Enabled</key>
-				<true />
-			</dict>
-			<dict>
-				<key>BlendModeIdentifier</key>
-				<string>Normal</string>
-				<key>Effects</key>
-				<array>
-					<dict>
-						<key>Identifier</key>
-						<string>MIPLPhotoshopBrightnessEffect</string>
-						<key>Parameters</key>
-						<dict />
-					</dict>
-					<dict>
-						<key>Identifier</key>
-						<string>MIPLContrastEffect</string>
-						<key>Parameters</key>
-						<dict />
-					</dict>
-				</array>
-				<key>Identifier</key>
-				<string>BrightnessContrastAdjustmentLayer</string>
-				<key>Enabled</key>
-				<true />
-			</dict>
-			<dict>
-				<key>BlendModeIdentifier</key>
-				<string>Normal</string>
-				<key>Effects</key>
-				<array>
-					<dict>
-						<key>Identifier</key>
-						<string>MIPLHighlightsEffect</string>
-						<key>Parameters</key>
-						<dict>
-							<key>Highlights</key>
-							<dict>
-								<key>OptionalDataType</key>
-								<integer>0</integer>
-								<key>Value</key>
-								<real>-91</real>
-							</dict>
-							<key>Shadows</key>
-							<dict>
-								<key>OptionalDataType</key>
-								<integer>0</integer>
-								<key>Value</key>
-								<real>23.3009700775146</real>
-							</dict>
-						</dict>
-					</dict>
-				</array>
-				<key>Identifier</key>
-				<string>HighlightsShadowsAdjustmentLayer</string>
-				<key>Enabled</key>
-				<true />
-			</dict>
-			<dict>
-				<key>BlendModeIdentifier</key>
-				<string>Normal</string>
-				<key>Effects</key>
-				<array>
-					<dict>
-						<key>Identifier</key>
-						<string>MIPLBlackWhiteEffect</string>
-						<key>Parameters</key>
-						<dict>
-							<key>Whites</key>
-							<dict>
-								<key>OptionalDataType</key>
-								<integer>0</integer>
-								<key>Value</key>
-								<real>-31.0679607391357</real>
-							</dict>
-							<key>Blacks</key>
-							<dict>
-								<key>OptionalDataType</key>
-								<integer>0</integer>
-								<key>Value</key>
-								<real>71.8446578979492</real>
-							</dict>
-						</dict>
-					</dict>
-				</array>
-				<key>Identifier</key>
-				<string>BlacksWhitesEffect</string>
 				<key>Enabled</key>
 				<true />
 			</dict>
@@ -295,45 +286,6 @@
 				<key>Enabled</key>
 				<true />
 			</dict>
-			<dict>
-				<key>BlendModeIdentifier</key>
-				<string>Normal</string>
-				<key>Effects</key>
-				<array>
-					<dict>
-						<key>Identifier</key>
-						<string>MIPLSaturationEffect</string>
-						<key>Parameters</key>
-						<dict>
-							<key>Saturation</key>
-							<dict>
-								<key>OptionalDataType</key>
-								<integer>0</integer>
-								<key>Value</key>
-								<real>13</real>
-							</dict>
-						</dict>
-					</dict>
-					<dict>
-						<key>Identifier</key>
-						<string>MIPLVibranceEffect</string>
-						<key>Parameters</key>
-						<dict>
-							<key>Vibrance</key>
-							<dict>
-								<key>OptionalDataType</key>
-								<integer>0</integer>
-								<key>Value</key>
-								<real>11</real>
-							</dict>
-						</dict>
-					</dict>
-				</array>
-				<key>Identifier</key>
-				<string>VibranceAdjustmentLayer</string>
-				<key>Enabled</key>
-				<true />
-			</dict>
 		</array>
 		<key>Name</key>
 		<string>YPW-LMN-NightFlight</string>
@@ -344,6 +296,6 @@
 		<key>priority</key>
 		<integer>0</integer>
 		<key>uuid</key>
-		<string>ca1b5abd-f39f-42b2-a71e-8fd2d6355653</string>
+		<string>200a586e-065b-4a3b-8607-484fc3bba8ea</string>
 	</dict>
 </plist>

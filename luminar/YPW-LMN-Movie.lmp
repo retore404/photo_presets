@@ -17,6 +17,98 @@
 				<key>BlendModeIdentifier</key>
 				<string>Normal</string>
 				<key>Effects</key>
+				<array />
+				<key>Identifier</key>
+				<string>DevelopAdjustmentLayer</string>
+				<key>Enabled</key>
+				<true />
+				<key>Sublayers</key>
+				<dict>
+					<key>AdjustmentLayers</key>
+					<array>
+						<dict>
+							<key>BlendModeIdentifier</key>
+							<string>Normal</string>
+							<key>Effects</key>
+							<array>
+								<dict>
+									<key>Identifier</key>
+									<string>MIPLLensCorrectionEffect</string>
+									<key>Parameters</key>
+									<dict />
+								</dict>
+							</array>
+							<key>Identifier</key>
+							<string>LensCorrectionAdjustmentSubLayer</string>
+							<key>Enabled</key>
+							<true />
+						</dict>
+						<dict>
+							<key>BlendModeIdentifier</key>
+							<string>Normal</string>
+							<key>Effects</key>
+							<array>
+								<dict>
+									<key>Identifier</key>
+									<string>MIPLDevelopCommonEffectID</string>
+									<key>Parameters</key>
+									<dict />
+								</dict>
+							</array>
+							<key>Identifier</key>
+							<string>DevelopAdjustmentSubLayer</string>
+							<key>Enabled</key>
+							<true />
+						</dict>
+						<dict>
+							<key>BlendModeIdentifier</key>
+							<string>Normal</string>
+							<key>Effects</key>
+							<array>
+								<dict>
+									<key>Identifier</key>
+									<string>MIPLBlackWhiteEffect</string>
+									<key>Parameters</key>
+									<dict />
+								</dict>
+							</array>
+							<key>Identifier</key>
+							<string>BlacksWhitesEffectSubLayer</string>
+							<key>Enabled</key>
+							<true />
+						</dict>
+						<dict>
+							<key>BlendModeIdentifier</key>
+							<string>Normal</string>
+							<key>Effects</key>
+							<array>
+								<dict>
+									<key>Identifier</key>
+									<string>MIPLClarityEffect</string>
+									<key>Parameters</key>
+									<dict>
+										<key>Clarity</key>
+										<dict>
+											<key>OptionalDataType</key>
+											<integer>0</integer>
+											<key>Value</key>
+											<real>23</real>
+										</dict>
+									</dict>
+								</dict>
+							</array>
+							<key>Identifier</key>
+							<string>ClarityLayerSubLayer</string>
+							<key>Enabled</key>
+							<true />
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<dict>
+				<key>BlendModeIdentifier</key>
+				<string>Normal</string>
+				<key>Effects</key>
 				<array>
 					<dict>
 						<key>Identifier</key>
@@ -84,31 +176,6 @@
 				</array>
 				<key>Identifier</key>
 				<string>SkyEnhancerAdjustmentLayer</string>
-				<key>Enabled</key>
-				<true />
-			</dict>
-			<dict>
-				<key>BlendModeIdentifier</key>
-				<string>Normal</string>
-				<key>Effects</key>
-				<array>
-					<dict>
-						<key>Identifier</key>
-						<string>MIPLClarityEffect</string>
-						<key>Parameters</key>
-						<dict>
-							<key>Clarity</key>
-							<dict>
-								<key>OptionalDataType</key>
-								<integer>0</integer>
-								<key>Value</key>
-								<real>23.3009700775146</real>
-							</dict>
-						</dict>
-					</dict>
-				</array>
-				<key>Identifier</key>
-				<string>ClarityLayer</string>
 				<key>Enabled</key>
 				<true />
 			</dict>
@@ -248,10 +315,10 @@
 		<key>CachedResources</key>
 		<dict />
 		<key>group_identifier</key>
-		<string>User</string>
+		<string>Custom</string>
 		<key>priority</key>
 		<integer>0</integer>
 		<key>uuid</key>
-		<string>ae85ed21-fe2d-42f4-bd73-cf57ce0eda32</string>
+		<string>d014d582-b133-4036-ae4c-9a7221ed4320</string>
 	</dict>
 </plist>
