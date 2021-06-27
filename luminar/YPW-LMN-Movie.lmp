@@ -86,15 +86,7 @@
 									<key>Identifier</key>
 									<string>MIPLClarityEffect</string>
 									<key>Parameters</key>
-									<dict>
-										<key>Clarity</key>
-										<dict>
-											<key>OptionalDataType</key>
-											<integer>0</integer>
-											<key>Value</key>
-											<real>23</real>
-										</dict>
-									</dict>
+									<dict />
 								</dict>
 							</array>
 							<key>Identifier</key>
@@ -186,119 +178,6 @@
 				<array>
 					<dict>
 						<key>Identifier</key>
-						<string>MIPLChannelsEffect</string>
-						<key>Parameters</key>
-						<dict>
-							<key>hGreen</key>
-							<dict>
-								<key>OptionalDataType</key>
-								<integer>0</integer>
-								<key>Value</key>
-								<real>46.6019401550293</real>
-							</dict>
-							<key>hAqua</key>
-							<dict>
-								<key>OptionalDataType</key>
-								<integer>0</integer>
-								<key>Value</key>
-								<real>-7.76699018478394</real>
-							</dict>
-							<key>hBlue</key>
-							<dict>
-								<key>OptionalDataType</key>
-								<integer>0</integer>
-								<key>Value</key>
-								<real>-19.4174766540527</real>
-							</dict>
-							<key>sGreen</key>
-							<dict>
-								<key>OptionalDataType</key>
-								<integer>0</integer>
-								<key>Value</key>
-								<real>-29.1262130737305</real>
-							</dict>
-							<key>sAqua</key>
-							<dict>
-								<key>OptionalDataType</key>
-								<integer>0</integer>
-								<key>Value</key>
-								<real>-5.82524251937866</real>
-							</dict>
-							<key>sBlue</key>
-							<dict>
-								<key>OptionalDataType</key>
-								<integer>0</integer>
-								<key>Value</key>
-								<real>-33.009708404541</real>
-							</dict>
-						</dict>
-					</dict>
-				</array>
-				<key>Identifier</key>
-				<string>ColorFilterAdjustmentLayer</string>
-				<key>Enabled</key>
-				<true />
-			</dict>
-			<dict>
-				<key>BlendModeIdentifier</key>
-				<string>Normal</string>
-				<key>Effects</key>
-				<array>
-					<dict>
-						<key>Identifier</key>
-						<string>MIPLBiColorEffect</string>
-						<key>Parameters</key>
-						<dict>
-							<key>Amount</key>
-							<dict>
-								<key>OptionalDataType</key>
-								<integer>0</integer>
-								<key>Value</key>
-								<real>40.7766990661621</real>
-							</dict>
-							<key>HueBottom</key>
-							<dict>
-								<key>OptionalDataType</key>
-								<integer>0</integer>
-								<key>Value</key>
-								<real>220</real>
-							</dict>
-							<key>SaturationBottom</key>
-							<dict>
-								<key>OptionalDataType</key>
-								<integer>0</integer>
-								<key>Value</key>
-								<real>7.6271185874939</real>
-							</dict>
-							<key>LightnessBottom</key>
-							<dict>
-								<key>OptionalDataType</key>
-								<integer>0</integer>
-								<key>Value</key>
-								<real>46.2745094299316</real>
-							</dict>
-							<key>TopColorEnabled</key>
-							<dict>
-								<key>OptionalDataType</key>
-								<integer>0</integer>
-								<key>Value</key>
-								<real>0</real>
-							</dict>
-						</dict>
-					</dict>
-				</array>
-				<key>Identifier</key>
-				<string>BiColorAdjustmentLayer</string>
-				<key>Enabled</key>
-				<true />
-			</dict>
-			<dict>
-				<key>BlendModeIdentifier</key>
-				<string>Normal</string>
-				<key>Effects</key>
-				<array>
-					<dict>
-						<key>Identifier</key>
 						<string>MIPLVignetteEffect</string>
 						<key>Parameters</key>
 						<dict />
@@ -309,16 +188,99 @@
 				<key>Enabled</key>
 				<true />
 			</dict>
+			<dict>
+				<key>BlendModeIdentifier</key>
+				<string>Normal</string>
+				<key>Effects</key>
+				<array>
+					<dict>
+						<key>Identifier</key>
+						<string>MIPLSplitToningEffect</string>
+						<key>Parameters</key>
+						<dict>
+							<key>HighlightsHue</key>
+							<dict>
+								<key>OptionalDataType</key>
+								<integer>0</integer>
+								<key>Value</key>
+								<real>45</real>
+							</dict>
+							<key>HighlightsSaturation</key>
+							<dict>
+								<key>OptionalDataType</key>
+								<integer>0</integer>
+								<key>Value</key>
+								<real>20.4368934631348</real>
+							</dict>
+							<key>ShadowsHue</key>
+							<dict>
+								<key>OptionalDataType</key>
+								<integer>0</integer>
+								<key>Value</key>
+								<real>135</real>
+							</dict>
+							<key>ShadowsSaturation</key>
+							<dict>
+								<key>OptionalDataType</key>
+								<integer>0</integer>
+								<key>Value</key>
+								<real>10.3203887939453</real>
+							</dict>
+						</dict>
+					</dict>
+				</array>
+				<key>Identifier</key>
+				<string>ColorToningAdjustmentLayer</string>
+				<key>Enabled</key>
+				<true />
+			</dict>
+			<dict>
+				<key>BlendModeIdentifier</key>
+				<string>Normal</string>
+				<key>Effects</key>
+				<array>
+					<dict>
+						<key>Identifier</key>
+						<string>MIPLCurveEffect</string>
+						<key>Parameters</key>
+						<dict>
+							<key>RGB</key>
+							<dict>
+								<key>OptionalData</key>
+								<array>
+									<real>0.5</real>
+									<real>0</real>
+									<real>0</real>
+									<real>0.169936701655388</real>
+									<real>0.23639240860939</real>
+									<real>0.692721545696259</real>
+									<real>0.692721545696259</real>
+									<real>1</real>
+									<real>1</real>
+								</array>
+								<key>OptionalDataType</key>
+								<integer>1</integer>
+								<key>Value</key>
+								<real>50</real>
+							</dict>
+						</dict>
+					</dict>
+				</array>
+				<key>Identifier</key>
+				<string>CurveLayer</string>
+				<key>Enabled</key>
+				<true />
+			</dict>
 		</array>
 		<key>Name</key>
-		<string>YPW-LMN-Movie</string>
+		<string>YPW-Lmn-Movie3</string>
 		<key>CachedResources</key>
 		<dict />
 		<key>group_identifier</key>
-		<string>Custom</string>
+		<string>User</string>
 		<key>priority</key>
 		<integer>0</integer>
 		<key>uuid</key>
-		<string>d014d582-b133-4036-ae4c-9a7221ed4320</string>
+		<string>901b5eaa-7984-4d58-912f-574feac6da3e</string>
 	</dict>
 </plist>
